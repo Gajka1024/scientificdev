@@ -69,7 +69,7 @@
                     <div class=" sub-input"uk-form-custom="target: true">
                         <input class="uk-input" type="input" placeholder="Enter your e-mail">
                     </div>
-                    <button class="uk-button sub-btn">Submit</button>
+                    <button class="uk-button sub-btn">send</button>
                 </div>
             </div>
         </div>

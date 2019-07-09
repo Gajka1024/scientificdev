@@ -315,6 +315,7 @@ top: 0;
 /* .blog-post div {
     margin-bottom: 50px;
 } */
+
 .pagination{
     font-size: 1.6rem;
     margin-top: -50px;
@@ -719,9 +720,14 @@ form .button{
 @media only screen and (max-width: 640px) {
     body{
         font-size: 16px;
+        text-align: justify;
     }
     .mcard-img{
         display: none;
+    }
+
+    .pagination {
+        font-size: 1rem;
     }
 
     #main-cards .uk-card p {
@@ -740,5 +746,28 @@ form .button{
     }
     .section-dark {
         font-size: 1rem;
+    }
+    .quote {
+        font-size: 1.4rem;
+    }
+    .quote span {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+    h1{
+        font-size: 2.2rem;
+    }
+    .tab-line li{
+        padding-left: 10px;
+    }
+    .tab-line li a{
+        font-size: 0.8rem;
+        padding: 10px 0px;
+    }
+    small {
+        font-size: 0.7rem;
+        letter-spacing: 1px;
     }
 }
