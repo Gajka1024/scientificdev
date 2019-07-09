@@ -129,7 +129,7 @@ h1{
     position: relative;
 }
 #main-menu li:hover a{
-    color: #11BFAE;
+    color: #20818C;
 }
 #main-menu li a{
     font-family: 'Nunito Sans', sans-serif;
@@ -145,11 +145,11 @@ h1{
 }
 .navbar-title a{
     font-weight: 600;
-    color: #11BFAE;
+    color: #20818C;
 }
 
 #main-menu li.active a{
-    color: #11BFAE;
+    color: #20818C;
     font-weight: 600;
     position: relative;
 }
@@ -178,7 +178,7 @@ h1{
 }
 .off-canvas-btn{
     background-color: transparent;
-    color: #11BFAE;
+    color: #20818C;
     font-weight: 900;
     padding: 0px;
 }
@@ -774,5 +774,22 @@ form .button{
     .post-content {
         padding: 100px 20px 40px;
         text-align: justify;
+    }
+    .contant-title p {
+        writing-mode: horizontal-tb;
+        text-orientation: inherit;
+        padding: 10px;
+        font-size: 2rem;
+    }
+    .map-containter .contant-title p {
+        transform: rotate(0deg);
+    }
+    .grid-order-1{
+        order: 1;
+        margin: 0px;
+    }
+    .grid-order-2{
+        margin: 0px;
+        order: 2;
     }
 }

@@ -7,7 +7,7 @@
 
             <div class="uk-text-center" uk-grid>
 
-                <div class="uk-width-expand@m">
+                <div class="uk-width-expand@s grid-order-2">
                     <div class="uk-card">
                         <div class="uk-margin uk-text-left">
                         </div>
@@ -46,7 +46,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="uk-width-auto@m">
+                <div class="uk-width-auto@s grid-order-1">
                     <div class="contant-title">
                         <p> Get in touch.. </p>
                     </div>
@@ -61,12 +61,12 @@
 
 
             <div class="uk-text-center" uk-grid>
-                <div class="uk-width-auto@m">
+                <div class="uk-width-auto@s grid-order-1">
                     <div class="contant-title">
                         <p> ..or find me here :)  </p>
                     </div>
                 </div>
-                <div class="uk-width-expand@m">
+                <div class="uk-width-expand@s grid-order-2">
                     <div class="map-responsive">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2314.4115202798002!2d18.54282975141007!3d54.54387078015053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fda7023a6440b3%3A0x6144d17db5b3ddb1!2sAkademia+Marynarki+Wojennej+im.+Bohater%C3%B3w+Westerplatte!5e0!3m2!1sen!2spl!4v1561046785919!5m2!1sen!2spl" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
