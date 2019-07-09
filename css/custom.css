@@ -129,7 +129,7 @@ h1{
     position: relative;
 }
 #main-menu li:hover a{
-    color: #20818C;
+    color: #1BA6A6;
 }
 #main-menu li a{
     font-family: 'Nunito Sans', sans-serif;
@@ -145,11 +145,11 @@ h1{
 }
 .navbar-title a{
     font-weight: 600;
-    color: #20818C;
+    color: #1BA6A6;
 }
 
 #main-menu li.active a{
-    color: #20818C;
+    color: #1BA6A6;
     font-weight: 600;
     position: relative;
 }
@@ -178,7 +178,7 @@ h1{
 }
 .off-canvas-btn{
     background-color: transparent;
-    color: #20818C;
+    color: #1BA6A6;
     font-weight: 900;
     padding: 0px;
 }
