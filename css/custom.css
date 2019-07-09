@@ -1,0 +1,743 @@
+:root {
+    --my-orange: #1BA6A6;   /* 230, 82, 39,  */
+    --my-yellow: #E6A228;   /* 230, 162, 40, */
+    --my-blue: #0B73B9;     /* 11, 115, 185, */
+    --dark-green: #20818C;
+    --green: #1BA6A6;
+    --light-green: #11BFAE;
+    --vlight-greem: #BBF2ED;
+    --dark-color: #4D5673;
+}
+
+body {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    background: #f9f9f9;
+    color: #666;
+    min-width: 100%;
+    min-height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+
+    /* background-image: url("../uploads/img/bg1.jpg");
+background-repeat: no-repeat;
+background-position: right top;
+background-attachment: fixed; */
+}
+
+main{
+    padding-top: 80px;
+}
+main.main-page{
+    /* background: #0E2A38; */
+    background: #2b2a2a;
+    min-height: 85vh;
+    color: #fff;
+}
+
+footer{
+    background: #2b2a2a;
+}
+/*******     fonts   *******/
+
+small{
+    font-size: 80%;
+    font-weight: 200;
+    visibility: 0.7;
+    color: #424a57;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+}
+a, a:hover{
+    /* color: #fff; */
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #2b2a2a;
+    font-family: Raleway;
+    font-size: 3.2rem;
+    font-weight: 700;
+    position: relative;
+    margin: 0px auto 60px;
+
+}
+
+.page-title:after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    bottom: -15px;
+    color: #4D5673;
+    background-color: #11BFAE;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 60px;
+}
+
+.quote {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    font-style: italic;
+    text-align: center;
+    padding: 10px 20px;
+}
+.quote span {
+    padding: 10px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #1BA6A6;
+}
+
+.button .material-icons {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    margin-top: -1em;
+    margin-bottom: -1em;
+    font-size: 1.1rem;
+    vertical-align: middle;
+}
+
+.section-dark{
+    background: #2b2a2a;
+    color: #929292;
+    font-size: 1.2rem;
+}
+.sub-input{
+    width: 75%;
+}
+
+/*******    end fonts   *******/
+
+/*******    menu   *******/
+#main-menu .uk-navbar-container{
+    background-color: transparent;
+}
+
+#main-menu{
+    position: fixed;
+    width: 97%;
+    z-index: 99;
+    background-color: #0b1b23e0;
+}
+#main-menu li{
+    position: relative;
+}
+#main-menu li:hover a{
+    color: #11BFAE;
+}
+#main-menu li a{
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 0px 20px;
+    padding: 0px;
+}
+.navbar-title {
+    padding: 18px 0 0 0;
+    font-size: 2rem;
+}
+.navbar-title a{
+    font-weight: 600;
+    color: #11BFAE;
+}
+
+#main-menu li.active a{
+    color: #11BFAE;
+    font-weight: 600;
+    position: relative;
+}
+
+/*effect-underline*/
+#main-menu li a:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 2em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,0.8);
+	transform: scale(0,0.8);
+}
+
+#main-menu li a:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(0.6);
+	transform: scale(0.6);
+}
+.off-canvas-btn{
+    background-color: transparent;
+    color: #11BFAE;
+    font-weight: 900;
+    padding: 0px;
+}
+.off-canvas-menu li a{
+    text-transform: uppercase;
+}
+/*******    end menu   *******/
+
+/*******    main page   *******/
+/* .animation-bg {
+    position: absolute;
+opacity: 0.2;
+top: 0;
+} */
+
+#main-cards .card-title{
+    text-align: left;
+}
+#main-cards .uk-card  p{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    font-size: 38px;
+    font-family: Raleway;
+    line-height: 1.2;
+    font-weight: 700;
+    display: table-caption;
+}
+#main-cards .uk-card:hover p{
+    opacity: 0;
+}
+
+#main-cards .uk-card .card-icon{
+    opacity: 0.3;
+    transform: rotate(15deg);
+    width: 150px;
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    font-size: 9rem;
+}
+.maincard-bg{
+    background-image: url("../uploads/img/bg-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+}
+
+#main-cards .uk-card{
+    /* background-color: #0E2A38; */
+    /* border: 1px solid #1BA6A6; */
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    padding: 80px 40px;
+    height: 300px;
+    /* -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57); */
+}
+
+/* .mcard-darkblue{
+    background-color:#20818C;
+}
+.mcard-blue{
+    background-color: #1BA6A6;
+}
+.mcard-lightblue{
+    background-color: #11BFAE;
+}
+.mcard-gblue{
+    background-color: #BBF2ED;
+} */
+.mcard-darkblue{
+    background-color:#20818C;
+}
+.mcard-blue{
+    background-color: #1BA6A6;
+}
+.mcard-lightblue{
+    background-color: #BBF2ED;
+}
+.mcard-gblue{
+    background-color: #11BFAE;
+}
+
+.mcard-img{
+    overflow: hidden;
+    /* background-image: url("../uploads/img/technology2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+#main-cards .uk-card.mcard-img{
+    padding: 0px;
+}
+.mcard-img img{
+    height: 100%;
+    object-fit: cover;
+}
+#main-cards .mcard-img.uk-card:hover{
+    background-color:  transparent;
+}
+#main-cards .uk-card:hover {
+    opacity: 0.9;
+    /* background-color:  #15313e; */
+    /* transform: scale(1.05); */
+}
+
+#main-cards .card-description{
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    background-color: transparent;
+
+}
+#main-cards .uk-card:hover .card-description{
+    opacity: 0.8;
+}
+
+.mcard-title{
+    color: #fff;
+}
+.mcard-title i{
+    color: #1BA6A6;
+}
+
+
+
+/*******    end main page   *******/
+
+
+
+
+
+/*******    blog page   *******/
+/* .blog-post div {
+    margin-bottom: 50px;
+} */
+.pagination{
+    font-size: 1.6rem;
+    margin-top: -50px;
+}
+
+.pagination li.uk-active span{
+    color: #fff;
+    background: #11BFAE;
+}
+
+.pagination li span{
+    padding: 2px 10px;
+}
+.post-category {
+}
+
+.post-card .uk-card-media-top{
+    max-height: 550px;
+    overflow: hidden;
+}
+
+.post-card .uk-card-media-top img{
+    width: 100%;
+    height: auto;
+}
+
+.post-category span {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background:#11BFAE;
+    color: #fff;
+    padding: 5px 10px;
+
+}
+.post-card{
+    margin-bottom: 50px;
+}
+.post-card .uk-card-media-top{
+    position: relative;
+}
+
+.post-card .uk-card-body{
+    /* padding: 40px 40px 40px 65px; */
+    position: relative;
+}
+
+.post-card .uk-card-body small{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.post-card-title{
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+.button {
+  --offset: 10px;
+  --border-size: 2px;
+  display: block;
+  position: relative;
+  padding: 1.5em 3em;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  background: transparent;
+  color: #1BA6A6;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0;
+  box-shadow: inset 0 0 0 var(--border-size) #1BA6A6;
+  transition: background .8s ease;
+  margin: 50px auto 10px;
+}
+.button.btn-build{
+    box-shadow: inset 0 0 0 var(--border-size) #11BFAE;
+    color: #11BFAE;
+}
+
+
+.button:hover {
+  background: rgba(100, 0, 0, 0.03);
+}
+.button__horizontal, .button__vertical {
+  position: absolute;
+  top: var(--horizontal-offset, 0);
+  right: var(--vertical-offset, 0);
+  bottom: var(--horizontal-offset, 0);
+  left: var(--vertical-offset, 0);
+  transition: -webkit-transform .8s ease;
+  transition: transform .8s ease;
+  transition: transform .8s ease, -webkit-transform .8s ease;
+  will-change: transform;
+}
+.button__horizontal::before, .button__vertical::before {
+  content: '';
+  position: absolute;
+  border: inherit;
+}
+.button__horizontal {
+  --vertical-offset: calc(var(--offset) * -1);
+  border-top: var(--border-size) solid  #1BA6A6;
+  border-bottom: var(--border-size) solid  #1BA6A6;
+}
+.button.btn-build .button__horizontal {
+    border-color: #11BFAE;
+}
+.button__horizontal::before {
+  top: calc(var(--vertical-offset) - var(--border-size));
+  bottom: calc(var(--vertical-offset) - var(--border-size));
+  left: calc(var(--vertical-offset) * -1);
+  right: calc(var(--vertical-offset) * -1);
+}
+.button:hover .button__horizontal {
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+.button__vertical {
+  --horizontal-offset: calc(var(--offset) * -1);
+  border-left: var(--border-size) solid  #1BA6A6;
+  border-right: var(--border-size) solid  #1BA6A6;
+}
+.button.btn-build .button__vertical {
+    border-color: #11BFAE;
+}
+.button__vertical::before {
+  top: calc(var(--horizontal-offset) * -1);
+  bottom: calc(var(--horizontal-offset) * -1);
+  left: calc(var(--horizontal-offset) - var(--border-size));
+  right: calc(var(--horizontal-offset) - var(--border-size));
+}
+.button:hover .button__vertical {
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+}
+
+/* category tab */
+.tab-line::before {
+    border-left: 2px solid #e5e5e5;
+}
+.tab-line >.uk-active>a {
+    color: #333;
+    border-color: #BBF2ED;
+    border-width: 3px;
+}
+/*******    end blog page   *******/
+
+
+/*******    post page  *******/
+.post-img-container{
+    position: relative;
+}
+.post-image{
+    /* margin-left: -50px; */
+}
+.post-title{
+    background-color:#20818C;
+    padding: 20px 50px;
+    position: absolute;
+    bottom: -30px;
+    right: -50px;
+    -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
+}
+.post-title h3{
+    margin: 0px;
+    color: #ffffff;
+}
+.post-title small{
+    margin: 0px;
+    color: #ffffff70;
+}
+
+.post-content{
+    padding: 80px 40px;
+    text-align: left;
+}
+/*******    end post page   *******/
+
+
+/*******    contact page   *******/
+.contant-title{
+    /* padding: 50px 0; */
+}
+
+form .button{
+    width: 95%;
+}
+.map-containter .contant-title p{
+    transform: rotate(180deg);
+}
+.contant-title p{
+    white-space: nowrap;
+    writing-mode: vertical-rl;
+    text-orientation: inherit;
+    padding: 30px 10px;
+    font-weight: 800;
+    font-size: 3.5rem;
+    margin: auto;
+}
+.map-responsive{
+    width: 100%;
+    height: 70px;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*******    end menu   *******/
+
+
+
+/*******    project-cards   *******/
+.project-cards .uk-card {
+    /* background-color: #2f2f2f; */
+    -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
+    margin: 0px;
+}
+.project-category .uk-card {
+    margin-bottom: 50px;
+}
+.project-cards .card-title{
+    text-align: center;
+    /* text-transform: uppercase; */
+    /* color: #fff; */
+    font-family: Raleway;
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    line-height: 1.1;
+}
+
+.project-cards .card-subtitle{
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    opacity: 0.6;
+    letter-spacing: 1px;
+}
+.project-cards .card-details,
+.project-cards .card-description{
+    font-size: 1rem;
+}
+.bg-card-img{
+
+}
+
+.overlay-dark{
+    background-color: #2f2f2fd0;
+}
+.overlay-light{
+    background-color: #f9f9f9c0;
+}
+.overlay-light .card-title,
+.overlay-light p{
+    color: #000;
+}
+/*******    end project-cards   *******/
+
+/*******    about page   *******/
+.social-icons{
+    max-width: 400px;
+}
+
+.social-icons h2{
+    color: #fff;
+}
+.social-icons ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.social-icons ul li {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 5px;
+    border: 2px solid #1BA6A6;
+    width: 65px;
+    margin-bottom: 10px;
+}
+.social-icons ul li:hover{
+    border: 2px solid #1BA6A6;
+    background: #1BA6A6;
+}
+.social-icons ul li a{
+    color: #1BA6A6;
+    transition: all 0.3s;
+}
+.social-icons ul li:hover a{
+    color: #2b2a2a;
+}
+.social-icons ul li i {
+    font-size: 3rem;
+    padding: 10px;
+}
+.section-dark h2{
+    color: #fff;
+}
+
+.sub-btn{
+    color: #fff;
+    background: #1BA6A6;
+}
+
+/*******    end about page  *******/
+
+@media only screen and (max-width: 1200px){
+    #main-menu li a {
+        margin: 0px 10px;
+        font-size: 0.8rem;
+    }
+    .navbar-title a {
+        font-size: 1.7rem;
+    }
+    #main-menu {
+        width: 93%;
+    }
+
+}
+@media only screen and (max-width: 1040px){
+    .sub-btn,
+    .sub-input {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1240px) and (min-width: 960px){
+    #main-cards .uk-card {
+        padding: 80px 20px;
+    }
+    #main-cards .uk-card p {
+        font-size: 32px;
+    }
+    #main-cards .card-description {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .blog-grid-order-1{
+        order: 1;
+    }
+    .blog-grid-order-2{
+        order: 2;
+    }
+    .section-dark{
+        text-align: center;
+    }
+
+    .social-icons {
+        max-width: 100%;
+    }
+    .sub-btn,
+    .sub-input {
+        max-width: 500px;
+        display: block;
+        margin: auto;
+    }
+    .post-title{
+        right: 0;
+        padding: 10px;
+        bottom: -70px;
+        left: 0;
+    }
+    .post-content {
+        padding: 100px 40px 60px;
+        text-align: justify;
+    }
+    .project-cards .card-title,
+    .post-title h3{
+        font-size: 1.3rem;
+    }
+    small {
+        font-size: 0.8rem;
+        letter-spacing: 2px;
+    }
+    .button {
+        font-size: 0.8rem;
+        padding: 1em 1.5em;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body{
+        font-size: 16px;
+    }
+    .mcard-img{
+        display: none;
+    }
+
+    #main-cards .uk-card p {
+        font-size: 34px;
+        display: block;
+    }
+    #main-cards .uk-card {
+        height: 240px;
+    }
+    .social-icons ul li i {
+        font-size: 2rem;
+        padding: 5px;
+    }
+    .social-icons ul li{
+        width: auto;
+    }
+    .section-dark {
+        font-size: 1rem;
+    }
+}
