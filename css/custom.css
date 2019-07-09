@@ -771,4 +771,8 @@ form .button{
         font-size: 0.7rem;
         letter-spacing: 1px;
     }
+    .post-content {
+        padding: 100px 20px 40px;
+        text-align: justify;
+    }
 }
