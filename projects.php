@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <main>
     <div class="uk-section">
-        <div class="uk-container uk-container-large uk-text-center">
+        <div class="uk-container uk-container-medium uk-text-center">
             <h1 class="page-title"> Projects </h1>
 
             <div class="project-cards uk-child-width-1-2@s uk-text-center " uk-grid uk-height-match="target: > div > .uk-card">

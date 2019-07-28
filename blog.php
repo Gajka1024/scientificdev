@@ -2,7 +2,7 @@
 <main>
 
     <div class="uk-section">
-        <div class="uk-container uk-container-large uk-text-center">
+        <div class="uk-container uk-container-medium uk-text-center">
             <h1 class="page-title"> Blog </h1>
 
             <div class="uk-text-center" uk-grid>

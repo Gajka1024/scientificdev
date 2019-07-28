@@ -42,6 +42,7 @@
                         <li><a href="https://pl.linkedin.com/in/artur-zacniewski-29436928" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                         <li><a href="https://github.com/zacniewski" target="_blank"><i class="fab fa-github"></i></a></li>
                         <li><a href="https://bitbucket.org/zacniewski/" target="_blank"><i class="fab fa-bitbucket"></i></a></li>
+                        <li><a href="https://stackoverflow.com/users/2090474/artur" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
                         <li><a href="https://www.researchgate.net/profile/Artur_Zacniewski" target="_blank"><i class="ai ai-researchgate"></i></a></li>
                         <li><a href="https://scholar.google.pl/citations?user=8O4cHKMAAAAJ&amp;hl=en" target="_blank"><i class="ai ai-google-scholar"></i></a></li>
                         <li><a href="https://www.facebook.com/artur.zacniewski" target="_blank"><i class="fab fa-facebook-square"></i></a> </li>

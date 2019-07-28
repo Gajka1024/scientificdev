@@ -8,6 +8,10 @@
     --vlight-greem: #BBF2ED;
     --dark-color: #4D5673;
 }
+html, body{
+    min-height: 100% !important;
+    height: 100%;
+}
 
 body {
     font-size: 20px;
@@ -16,7 +20,6 @@ body {
     background: #f9f9f9;
     color: #666;
     min-width: 100%;
-    min-height: 100%;
     font-family: 'Nunito Sans', sans-serif;
 
     /* background-image: url("../uploads/img/bg1.jpg");
@@ -187,6 +190,96 @@ h1{
 }
 /*******    end menu   *******/
 
+
+
+
+/******************************************************************************
+*
+*           home version 3
+*
+*******************************************************************************/
+.home-cards__big-item{
+    min-height: 90vh;
+    position: relative;
+}
+
+.home-cards__item{
+    min-height: 50vh;
+}
+
+.home-cards__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.home-cards__overlay{
+    background-color: #3f65696e;
+    transition: all 0.3s;
+    /* background: rgba(197,214,214,0.58);
+    background: -moz-linear-gradient(-45deg, rgba(197,214,214,0.58) 0%, rgba(27,166,166,0.47) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(197,214,214,0.58)), color-stop(100%, rgba(27,166,166,0.47)));
+    background: -webkit-linear-gradient(-45deg, rgba(197,214,214,0.58) 0%, rgba(27,166,166,0.47) 100%);
+    background: -o-linear-gradient(-45deg, rgba(197,214,214,0.58) 0%, rgba(27,166,166,0.47) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(197,214,214,0.58) 0%, rgba(27,166,166,0.47) 100%);
+    background: linear-gradient(135deg, rgba(197,214,214,0.58) 0%, rgba(27,166,166,0.47) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5d6d6', endColorstr='#1ba6a6', GradientType=1 ); */
+}
+
+.home-cards__overlay:hover{
+}
+
+.home-cards__item-parent{
+    overflow: hidden;
+}
+.home-cards__item-parent:hover .home-cards__item {
+    transform: scale(1.1);
+    filter: brightness(120%);
+    
+}
+.home-cards__item{
+    position: relative;
+    transition: all 0.5s;
+}
+.home-cards__big-item h2,
+.home-cards__item h2{
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.home-cards__big-item h2{
+    font-size: 36px;
+    margin: 0px;
+}
+.home-cards__subtitle{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+    color: #11BFAE;
+}
+.home-cards{
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* .home-cards__big-item h2 span{
+    position: absolute;
+    font-size: 59px;
+    color: #ffffff4a;
+    top: -30px;
+    left: 30px;
+    font-weight: 900;
+    filter: blur(1px);
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+} */
+
+
+
+
+
+
 /*******    main page   *******/
 /* .animation-bg {
     position: absolute;
@@ -237,6 +330,84 @@ top: 0;
     -moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
     box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57); */
 }
+
+
+
+
+
+
+
+
+
+
+
+#main-cards-v2 .card-title{
+    text-align: left;
+}
+#main-cards-v2 .uk-card  p{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    font-size: 38px;
+    font-family: Raleway;
+    line-height: 1.2;
+    font-weight: 700;
+    display: table-caption;
+}
+#main-cards-v2 .uk-card:hover p{
+    opacity: 0;
+}
+
+#main-cards-v2 .uk-card .card-icon{
+    opacity: 0.3;
+    transform: rotate(15deg);
+    width: 150px;
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    font-size: 9rem;
+}
+
+
+#main-cards-v2 .uk-card{
+    /* background-color: #0E2A38; */
+    /* border: 1px solid #1BA6A6; */
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    padding:  40px;
+    height: 220px;
+    /* -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
+    box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57); */
+}
+#main-cards-v2 .uk-card.mcard-img{
+    padding: 0px;
+}
+.mcard-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#main-cards-v2 .mcard-img.uk-card:hover{
+    background-color:  transparent;
+}
+#main-cards-v2-v2 .uk-card:hover {
+    opacity: 0.9;
+    /* background-color:  #15313e; */
+    /* transform: scale(1.05); */
+}
+
+#main-cards-v2 .card-description{
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    background-color: transparent;
+
+}
+#main-cards-v2 .uk-card:hover .card-description{
+    opacity: 0.8;
+}
+
+
+
 
 /* .mcard-darkblue{
     background-color:#20818C;
