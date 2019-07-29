@@ -234,7 +234,7 @@ h1{
 .home-cards__item-parent:hover .home-cards__item {
     transform: scale(1.1);
     filter: brightness(120%);
-    
+
 }
 .home-cards__item{
     position: relative;
@@ -250,6 +250,20 @@ h1{
     font-size: 36px;
     margin: 0px;
 }
+
+.home-cards__item  .card-icon {
+    opacity: 0.15;
+    transform: rotate(15deg);
+    width: 150px;
+    position: absolute;
+    top: -50px;
+    right: 111px;
+    font-size: 15rem;
+}
+.home-cards__slide-txt{
+    padding: 50px 50px 120px;
+}
+
 .home-cards__subtitle{
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -422,7 +436,7 @@ top: 0;
     background-color: #BBF2ED;
 } */
 .mcard-darkblue{
-    background-color:#20818C;
+    background-color:#0b525a;
 }
 .mcard-blue{
     background-color: #1BA6A6;
@@ -813,6 +827,11 @@ form .button{
 }
 
 /*******    end about page  *******/
+@media only screen and (max-width: 1300px){
+    .post-title {
+        right: -20px;
+    }
+}
 
 @media only screen and (max-width: 1200px){
     #main-menu li a {
@@ -914,7 +933,7 @@ form .button{
         padding: 5px;
     }
     .social-icons ul li{
-        width: auto;
+        width: 45px;
     }
     .section-dark {
         font-size: 1rem;

@@ -1,108 +1,123 @@
 <?php include 'header.php'; ?>
 
 <main class="main-page">
-    <div class="uk-section">
+    <div class="">
         <div class="uk-text-center">
-        <!-- <div class="uk-container uk-container-expand uk-text-center"> -->
+            <!-- <div class="uk-container uk-container-expand uk-text-center"> -->
 
 
-            <div id="main-cards"  class="uk-grid-collapse uk-text-center" uk-grid uk-height-match="target: > div > .uk-card">
-                <div class="uk-width-2-5@m uk-width-1-2@s maincard-bg">
-                    <div class="uk-card uk-card-body"><h2 class="mcard-title uk-position-center">We will help you <i>grow up your idea</i> into a profilable business</h2></div>
-                </div>
-                <div class="uk-width-1-5@m  uk-width-1-2@s">
-                    <div class="uk-card uk-card-body mcard-darkblue">
-                        <i class="card-icon material-icons">code</i>
-                        <p class="card-title"> Engineer projects </p>
-                        <div class="uk-position-center uk-overlay card-description">
-                            The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
+            <div class="uk-grid-collapse home-cards" uk-grid>
+                <div class=" uk-width-2-5@s">
+
+                    <div class="uk-position-relative uk-visible-toggle home-cards__big-item" tabindex="-1" uk-slideshow="animation: push; autoplay: true">
+                        <ul class="uk-slideshow-items"  uk-height-viewport>
+                            <li>
+                                <img src="./uploads/img/cup.jpg" alt="" uk-cover>
+                                <div class="uk-overlay home-cards__overlay uk-position-cover" >
+                                    <div class="uk-position-bottom-left uk-text-left uk-padding home-cards__slide-txt">
+                                        <p class="home-cards__subtitle">Latest post</h2>
+                                            <h2>Excepteur sint occaecat cupidatat non proident</h2>
+                                            <p>
+                                                The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="./uploads/img/blogger.jpg" alt="" uk-cover>
+                                    <div class="uk-overlay home-cards__overlay uk-position-cover" >
+                                        <div class="uk-position-bottom-left uk-text-left uk-padding home-cards__slide-txt">
+                                            <p class="home-cards__subtitle">Latest post</h2>
+                                                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+
+                                                <p>
+                                                    The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                                <div class="uk-light">
+                                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div  class=" uk-width-3-5@s" uk-height-viewport>
+
+                            <div class="uk-grid-collapse uk-child-width-1-2@s" uk-height-match="target: > div > .home-cards__item" uk-grid>
+                                <div class="home-cards__item-parent">
+                                    <div class="home-cards__item  uk-background-cover mcard-darkblue" >
+                                        <div class="home-cards__overlay uk-position-cover" >
+                                            <div class="uk-position-center-left uk-text-left uk-padding">
+
+                                                <h2><i class="card-icon material-icons">code</i>Engineer projects</h2>
+                                                <p>
+                                                    The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home-cards__item-parent">
+                                    <div class="home-cards__item  uk-background-cover" style="background-image: url('./uploads/img/android.jpg');">
+                                        <div class="home-cards__overlay uk-position-cover" >
+                                            <div class="uk-position-center-left uk-text-left uk-padding">
+                                                <h2>Mobile apps</h2>
+                                                <p>
+                                                    The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="home-cards__item-parent">
+                                    <div class="home-cards__item  uk-background-cover" style="background-image: url('./uploads/img/vision.jpg');">
+                                        <div class="home-cards__overlay uk-position-cover" >
+                                            <div class="uk-position-center-left uk-text-left uk-padding">
+                                                <h2>Computer Vision</h2>
+                                                <p>
+                                                    The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="home-cards__item-parent">
+                                    <div class="home-cards__item  uk-background-cover mcard-darkblue" >
+                                        <div class="home-cards__overlay uk-position-cover" >
+                                            <div class="uk-position-center-left uk-text-left uk-padding">
+
+                                                <h2> <i class="card-icon material-icons">open_in_browser</i> WWW</h2>
+                                                <p>
+                                                    The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
+
                 </div>
-
-
-                <div class="uk-width-1-5@m uk-width-1-2@s">
-                    <div class="uk-card uk-card-body mcard-blue">
-                        <i class="card-icon material-icons">android</i>
-                        <p class="card-title"> Mobile apps </p>
-                        <div class="uk-position-center uk-overlay card-description">
-                            The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="uk-width-1-5@m uk-width-1-2@s">
-                    <div class="uk-card mcard-img"> <img src="./uploads/img/android.jpg" /></div>
-                </div>
-
-                <div class="uk-width-1-5@m uk-width-1-2@s">
-                    <div class="uk-card mcard-img"><img src="./uploads/img/technology.jpg" /></div>
-                </div>
-
-
-                <div class="uk-width-1-5@m uk-width-1-2@s">
-                    <div class="uk-card uk-card-body mcard-gblue">
-                        <i class="card-icon material-icons">visibility</i>
-                        <p class="card-title"> Computer Vision </p>
-                        <div class="uk-position-center uk-overlay card-description">
-                            The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- <div class="uk-width-1-5@m">
-                    <div class="uk-card uk-card-body mcard-blue">
-                        <i class="card-icon material-icons">comment</i>
-                        <p class="card-title"> Latest tip </p>
-                        <div class="uk-position-center uk-overlay card-description">
-                            The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
-                        </div>
-                    </div>
-                </div> -->
-
-                <div class="uk-width-1-5@m  uk-width-1-2@s">
-                    <div class="uk-card uk-card-body mcard-blue">
-                        <i class="card-icon material-icons">access_time</i>
-                        <p class="card-title"> Latest post </p>
-                        <div class="uk-position-center uk-overlay card-description">
-                            The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="uk-width-1-5@m uk-width-1-2@s">
-                    <div class="uk-card  mcard-img"><img src="./uploads/img/technology2.jpg" /></div>
-                </div>
-
-                <div class="uk-width-1-2@s uk-hidden@m">
-                    <div class="uk-card mcard-img"><img src="./uploads/img/www.jpg" /></div>
-                </div>
-
-                <div class="uk-width-1-5@m uk-width-1-2@s">
-                    <div class="uk-card uk-card-body mcard-darkblue">
-                        <i class="card-icon material-icons">open_in_browser</i>
-                        <p class="card-title"> WWW </p>
-                        <div class="uk-position-center uk-overlay card-description">
-                            The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
-                        </div>
-                    </div>
-                </div>
-
-
-
             </div>
 
+        </main>
 
 
 
-
-
-
-        </div>
-    </div>
-
-</main>
-
-
-
-<?php include 'footer.php'; ?>
+        <?php include 'footer.php'; ?>
