@@ -6,7 +6,6 @@
 
     <title></title>
     <link rel="shortcut icon" type="image/png" href=""/>
-
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="/js/uikit.min.js"></script>
@@ -30,6 +29,7 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
     <script src="https://kit.fontawesome.com/3df389aea8.js"></script>
 
+    <link rel="icon" type="image/png" href="/uploads/img/favicon.ico">
 
 
     <body>

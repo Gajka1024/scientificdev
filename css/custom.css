@@ -176,8 +176,8 @@ h1{
 
 #main-menu li a:hover:after {
   opacity: 1;
-	-webkit-transform: scale(0.6);
-	transform: scale(0.6);
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
 }
 .off-canvas-btn{
     background-color: transparent;
