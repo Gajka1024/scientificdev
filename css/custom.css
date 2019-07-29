@@ -361,7 +361,7 @@ top: 0;
 #main-cards-v2 .uk-card  p{
     opacity: 1;
     transition: all 0.3s ease-in-out;
-    font-size: 38px;
+    font-size: 50px;
     font-family: Raleway;
     line-height: 1.2;
     font-weight: 700;
@@ -376,9 +376,9 @@ top: 0;
     transform: rotate(15deg);
     width: 150px;
     position: absolute;
-    top: 45px;
-    right: 20px;
-    font-size: 9rem;
+    top: -20px;
+    right: 65px;
+    font-size: 12rem;
 }
 
 
@@ -388,7 +388,7 @@ top: 0;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
     padding:  40px;
-    height: 220px;
+    /* height: 220px; */
     /* -webkit-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
     -moz-box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57);
     box-shadow: 0px 0px 18px -4px rgba(0,0,0,0.57); */

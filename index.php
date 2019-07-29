@@ -94,8 +94,18 @@
                                     </div>
                                 </div>
 
-                                <div class="home-cards__item-parent">
-                                    <div class="home-cards__item  uk-background-cover mcard-darkblue" >
+                                <div id="main-cards-v2" class="home-cards__item-parent">
+
+                                    <div class="uk-card uk-card-body home-cards__item  mcard-darkblue">
+                                        <div class="uk-position-center-left uk-width-1-1 uk-padding">
+                                            <i class="card-icon material-icons">open_in_browser</i>
+                                            <p class="card-title"> WWW </p>
+                                        </div>
+                                        <div class="uk-position-center uk-overlay card-description">
+                                            The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
+                                        </div>
+                                    </div>
+                                    <!-- <div class="home-cards__item  uk-background-cover mcard-darkblue" >
                                         <div class="home-cards__overlay uk-position-cover" >
                                             <div class="uk-position-center-left uk-text-left uk-padding">
 
@@ -106,7 +116,7 @@
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
 
