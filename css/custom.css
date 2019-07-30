@@ -154,7 +154,7 @@ h1{
 #main-menu li.active a{
     color: #1BA6A6;
     font-weight: 600;
-    position: relative;
+    /* position: relative; */
 }
 
 /*effect-underline*/
@@ -167,7 +167,7 @@ h1{
   width: 100%;
   border-bottom: 1px solid;
   margin-top: 10px;
-  opacity: 0;
+  opacity: 1;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(0,0.8);
@@ -176,8 +176,8 @@ h1{
 
 #main-menu li a:hover:after {
   opacity: 1;
-	-webkit-transform: scale(0.8);
-	transform: scale(0.8);
+	-webkit-transform: scale(0.6);
+	transform: scale(0.6);
 }
 .off-canvas-btn{
     background-color: transparent;
@@ -246,17 +246,22 @@ h1{
     font-weight: 700;
     font-family: 'Nunito Sans', sans-serif;
 }
+.home-cards__item h2 a,
+.home-cards__item h2:hover a{
+    color: #fff;
+
+}
 .home-cards__big-item h2{
     font-size: 36px;
     margin: 0px;
 }
 
-.home-cards__item  .card-icon {
+.home-cards__item .card-icon {
     opacity: 0.15;
     transform: rotate(15deg);
     width: 150px;
     position: absolute;
-    top: -50px;
+    top: 30px;
     right: 111px;
     font-size: 15rem;
 }
@@ -865,6 +870,13 @@ form .button{
     }
 }
 @media only screen and (max-width: 960px) {
+    .home-cards__big-item h2,
+    .home-cards__item h2 {
+        font-size: 22px;
+    }
+    .home-cards {
+        font-size: 12px;
+    }
     .blog-grid-order-1{
         order: 1;
     }
@@ -912,6 +924,14 @@ form .button{
     body{
         font-size: 16px;
         text-align: justify;
+    }
+    #main-menu {
+        width: 96%;
+    }
+    .home-cards__item-parent:hover .home-cards__item {
+        transform: scale(1.02);
+        filter: brightness(120%);
+
     }
     .mcard-img{
         display: none;

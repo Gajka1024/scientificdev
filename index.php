@@ -7,7 +7,7 @@
 
 
             <div class="uk-grid-collapse home-cards" uk-grid>
-                <div class=" uk-width-2-5@s">
+                <div class=" uk-width-2-5@m uk-width-1-3@s">
 
                     <div class="uk-position-relative uk-visible-toggle home-cards__big-item" tabindex="-1" uk-slideshow="animation: push; autoplay: true">
                         <ul class="uk-slideshow-items"  uk-height-viewport>
@@ -15,7 +15,7 @@
                                 <img src="./uploads/img/cup.jpg" alt="" uk-cover>
                                 <div class="uk-overlay home-cards__overlay uk-position-cover" >
                                     <div class="uk-position-bottom-left uk-text-left uk-padding home-cards__slide-txt">
-                                        <p class="home-cards__subtitle">Latest post</h2>
+                                        <p class="home-cards__subtitle">Latest post</p>
                                             <h2>Excepteur sint occaecat cupidatat non proident</h2>
                                             <p>
                                                 The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
@@ -50,15 +50,16 @@
 
                         </div>
 
-                        <div  class=" uk-width-3-5@s" uk-height-viewport>
+                        <div  class=" uk-width-3-5@m uk-width-2-3@s" uk-height-viewport>
 
                             <div class="uk-grid-collapse uk-child-width-1-2@s" uk-height-match="target: > div > .home-cards__item" uk-grid>
                                 <div class="home-cards__item-parent">
                                     <div class="home-cards__item  uk-background-cover mcard-darkblue" >
                                         <div class="home-cards__overlay uk-position-cover" >
+                                            <i class="card-icon material-icons">code</i>
                                             <div class="uk-position-center-left uk-text-left uk-padding">
 
-                                                <h2><i class="card-icon material-icons">code</i>Engineer projects</h2>
+                                                <h2><a href="">Engineer projects</a></h2>
                                                 <p>
                                                     The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
 
@@ -93,31 +94,22 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <div id="main-cards-v2" class="home-cards__item-parent">
-
-                                    <div class="uk-card uk-card-body home-cards__item  mcard-darkblue">
-                                        <div class="uk-position-center-left uk-width-1-1 uk-padding">
-                                            <i class="card-icon material-icons">open_in_browser</i>
-                                            <p class="card-title"> WWW </p>
-                                        </div>
-                                        <div class="uk-position-center uk-overlay card-description">
-                                            The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
-                                        </div>
-                                    </div>
-                                    <!-- <div class="home-cards__item  uk-background-cover mcard-darkblue" >
+                                <div class="home-cards__item-parent">
+                                    <div class="home-cards__item  uk-background-cover mcard-darkblue" >
                                         <div class="home-cards__overlay uk-position-cover" >
+                                            <i class="card-icon material-icons">open_in_browser</i>
                                             <div class="uk-position-center-left uk-text-left uk-padding">
-
-                                                <h2> <i class="card-icon material-icons">open_in_browser</i> WWW</h2>
+                                                <h2><a href="">WWW</a></h2>
                                                 <p>
                                                     The moment you use Material Kit, you know you’ve never felt anything like it. With a single use, this powerfull UI Kit lets you do more than ever before.
 
                                                 </p>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
                                 </div>
+
+
                             </div>
 
                         </div>

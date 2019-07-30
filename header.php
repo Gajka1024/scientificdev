@@ -1,13 +1,12 @@
 <!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title></title>
+    <title>Scientific Dev</title>
     <link rel="shortcut icon" type="image/png" href=""/>
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="/js/uikit.min.js"></script>
     <script src="/js/uikit-icons.min.js"></script>
 
@@ -16,7 +15,6 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="/css/uikit.min.css" />
     <link rel="stylesheet" href="/css/custom.css" />
 
@@ -31,37 +29,20 @@
 
     <link rel="icon" type="image/png" href="/uploads/img/favicon.ico">
 
+</head>
 
-    <body>
-        <header>
-            <div  id="main-menu" class="uk-container uk-container-expand">
-                <nav class="uk-navbar-container" uk-navbar>
-                    <div class="uk-navbar-left">
-                        <p class="navbar-title">
-                            <a href="index.php">Scientific Dev</a>
-                        </p>
+<body>
+    <header>
+        <div  id="main-menu" class="uk-container uk-container-expand">
+            <nav class="uk-navbar-container" uk-navbar>
+                <div class="uk-navbar-left">
+                    <p class="navbar-title">
+                        <a href="index.php">Scientific Dev</a>
+                    </p>
 
-                    </div>
-                    <div class="uk-navbar-right">
-                        <ul class="uk-navbar-nav uk-visible@m">
-                            <li class="active"><a href="shop.php">shop</a></li>
-                            <li><a href="about.php">about</a></li>
-                            <li><a href="courses.php">courses</a></li>
-                            <li><a href="books.php">books</a></li>
-                            <li><a href="blog.php">blog</a></li>
-                            <li><a href="projects.php">projects</a></li>
-                            <li><a href="contact.php">contact</a></li>
-                        </ul>
-                        <button class="uk-button uk-hidden@m off-canvas-btn" type="button" uk-toggle="target: #offcanvas-nav"><span class="uk-margin-small-right" uk-icon="icon: menu; ratio: 1.5"></span></button>
-                    </div>
-                </nav>
-            </div>
-
-            <div id="offcanvas-nav" uk-offcanvas="overlay: true">
-                <div class="uk-offcanvas-bar">
-
-                    <ul class="uk-nav uk-nav-default off-canvas-menu">
-                        <li class="uk-nav-header"><a href="index.php">Scientific Dev</a></li>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav uk-visible@m">
                         <li class="active"><a href="shop.php">shop</a></li>
                         <li><a href="about.php">about</a></li>
                         <li><a href="courses.php">courses</a></li>
@@ -70,6 +51,24 @@
                         <li><a href="projects.php">projects</a></li>
                         <li><a href="contact.php">contact</a></li>
                     </ul>
+                    <button class="uk-button uk-hidden@m off-canvas-btn" type="button" uk-toggle="target: #offcanvas-nav"><span class="uk-margin-small-right" uk-icon="icon: menu; ratio: 1.5"></span></button>
                 </div>
+            </nav>
+        </div>
+
+        <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+            <div class="uk-offcanvas-bar">
+
+                <ul class="uk-nav uk-nav-default off-canvas-menu">
+                    <li class="uk-nav-header"><a href="index.php">Scientific Dev</a></li>
+                    <li class="active"><a href="shop.php">shop</a></li>
+                    <li><a href="about.php">about</a></li>
+                    <li><a href="courses.php">courses</a></li>
+                    <li><a href="books.php">books</a></li>
+                    <li><a href="blog.php">blog</a></li>
+                    <li><a href="projects.php">projects</a></li>
+                    <li><a href="contact.php">contact</a></li>
+                </ul>
             </div>
-        </header>
+        </div>
+    </header>
