@@ -26,6 +26,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
     <script src="https://kit.fontawesome.com/3df389aea8.js"></script>
+    <script src="/js/custom.js"></script>
 
     <link rel="icon" type="image/png" href="/uploads/img/favicon.ico">
 
