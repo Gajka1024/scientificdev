@@ -9,7 +9,8 @@
     <!-- Scripts -->
     <script src="/js/uikit.min.js"></script>
     <script src="/js/uikit-icons.min.js"></script>
-
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/custom.js"></script>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
@@ -26,7 +27,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
     <script src="https://kit.fontawesome.com/3df389aea8.js"></script>
-    <script src="/js/custom.js"></script>
+
 
     <link rel="icon" type="image/png" href="/uploads/img/favicon.ico">
 

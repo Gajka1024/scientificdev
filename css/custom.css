@@ -30,6 +30,8 @@ background-attachment: fixed; */
 
 main{
     padding-top: 80px;
+    background: #f9f9f9;
+
 }
 main.main-page{
     /* background: #0E2A38; */
@@ -40,6 +42,8 @@ main.main-page{
 
 footer{
     background: #2b2a2a;
+    position: relative;
+    z-index: 10;
 }
 /*******     fonts   *******/
 
@@ -117,6 +121,19 @@ h1{
 
 /*******    end fonts   *******/
 
+.search-btn-box{
+    position: relative;
+    min-height: 50px;
+}
+.button.result-btn{
+    margin: 0px;
+}
+.search-icon-background {
+    color: #66666621;
+    margin: 0px 50px;
+    z-index: 0;
+    font-size: 35vw;
+}
 /*******    menu   *******/
 #main-menu .uk-navbar-container{
     background-color: transparent;
@@ -848,6 +865,10 @@ form .button{
     }
     #main-menu {
         width: 93%;
+    }
+    .search-icon-background {
+        font-size: 60vw;
+        margin: 0px ;
     }
 
 }
